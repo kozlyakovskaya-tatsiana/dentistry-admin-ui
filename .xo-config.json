@@ -1,0 +1,27 @@
+{
+	"extends": ["xo", "xo-typescript", "prettier"],
+	"prettier": true,
+	"rules": {
+		"prettier/prettier": [
+			"error",
+			{
+				"singleQuote": false,
+				"jsxSingleQuote": false,
+				"useTabs": true,
+				"printWidth": 100,
+				"bracketSpacing": true,
+				"bracketSameLine": true,
+				"semi": true
+			}
+		],
+		"no-unused-vars": "off",
+		"unicorn/filename-case": "warn",
+		"@typescript-eslint/no-unused-vars": ["error"],
+		"no-console": [
+			"warn",
+			{
+				"allow": ["warn", "error"]
+			}
+		]
+	}
+}

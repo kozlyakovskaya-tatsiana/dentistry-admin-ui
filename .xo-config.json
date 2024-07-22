@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "xo",
+    "xo-typescript",
+    "prettier"
+  ],
+  "extensions": [
+    "ts",
+    "tsx"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "unicorn/filename-case": [
+      "warn"
+    ]
+  },
+  "prettier": true
+}
